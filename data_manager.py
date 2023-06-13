@@ -2,7 +2,7 @@ import requests
 
 # Login with Sheety and create a project called 'day39 &40CapstoneFlightTracker'
 SHEETY_PRICES_ENDPOINT = 'https://api.sheety.co/7ec9a9657009ffd6698317797e8c9652/day39 &40CapstoneFlightTracker/'
-SHEETY_AUTH = secrets.SHEETY_AUTH
+SHEETY_AUTH = os.environ['SHEETY_AUTH']
 
 class DataManager:
 
